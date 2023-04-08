@@ -18,4 +18,4 @@ jobs:
           username: ${{ secrets.EC2_NAME }}
           port: ${{ secrets.EC2_PORT }}
           script: |
-            cd ${{ secrets.EC2_PATH }}
+            ls
